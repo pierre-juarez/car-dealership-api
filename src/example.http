@@ -1,0 +1,23 @@
+### GET all cars
+GET http://localhost:3000/cars
+Accept: application/json
+
+### GET car by ID
+GET http://localhost:3000/cars/b00a077e-498b-4f98-ad75-8c8f6ea6df87
+Accept: application/json
+
+### POST create car
+POST http://localhost:3000/cars
+Content-Type: application/x-www-form-urlencoded
+
+brand=Audiciitou&model=A10
+
+### PATCH update car
+PATCH http://localhost:3000/cars/5cd37193-a638-46a5-bfcc-1ce37a576c1d
+Content-Type: application/x-www-form-urlencoded
+
+brand=Volvito&model=y90
+
+### DELETE car by ID
+DELETE http://localhost:3000/cars/5b6d3caf-8af6-4fa1-853c-433e46d6af13
+Accept: application/json
