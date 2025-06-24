@@ -96,3 +96,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+C:\Users\jean.juarez\Desktop\data\Projects\Flutter>taskkill /pid 16284 /f
+Correcto: se terminó el proceso con PID 16284.
+
+C:\Users\jean.juarez\Desktop\data\Projects\Flutter>netstat -ano | findstr :3000
+
+C:\Users\jean.juarez\Desktop\data\Projects\Flutter>netstat -ano
