@@ -21,3 +21,31 @@ brand=Volvito&model=y90
 ### DELETE car by ID
 DELETE http://localhost:3000/cars/5b6d3caf-8af6-4fa1-853c-433e46d6af13
 Accept: application/json
+
+#### Brans ####
+### Get all brands
+GET http://localhost:3000/brands
+Accept: application/json
+
+### Get brand by ID
+GET http://localhost:3000/brands/c2801958-ea5c-4e77-a2a2-dafdfc006f1e
+Accept: application/json
+
+### Create brand
+POST http://localhost:3000/brands
+Content-Type: application/json
+
+{
+  "name": "Audi2"
+}
+
+### Update brand
+PATCH http://localhost:3000/brands/c2801958-ea5c-4e77-a2a2-dafdfc006f1e
+Content-Type: application/json
+
+{
+  "name": "Audi3"
+}
+
+### Delete brand by ID
+DELETE http://localhost:3000/brands/c2801958-ea5c-4e77-a2a2-dafdfc006f1e
