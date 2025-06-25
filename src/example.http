@@ -49,3 +49,6 @@ Content-Type: application/json
 
 ### Delete brand by ID
 DELETE http://localhost:3000/brands/c2801958-ea5c-4e77-a2a2-dafdfc006f1e
+
+### Seed DB
+GET http://localhost:3000/seed
